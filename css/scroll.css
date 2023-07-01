@@ -11,6 +11,24 @@ h2 {
   max-width: none;
 }
 
+.header-section {
+  margin-top: 230px;
+  margin-bottom: 230px;
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 600px) {
+  .header-section {
+    font-size: 16px;
+  }
+}
+.footer {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
 .comparisonSection {
   position: relative;
   padding-bottom: 56.25%; /* to maintain aspect ratio (responsive!) */
